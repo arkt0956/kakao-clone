@@ -5,14 +5,36 @@
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
 
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
-
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}
+
+.updated {
+    background-color: #FA622A;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: block;
+}
+
+.header-title {
+    padding-top: 15px;
+    color: var(--gray);
+    font-size: 14px;
+}

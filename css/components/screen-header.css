@@ -37,5 +37,10 @@
     font-weight: 600;
     padding: 1px;
     border-radius: 50%;
-    
+}
+
+.setting__notification {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
 }

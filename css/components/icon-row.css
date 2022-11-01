@@ -1,0 +1,16 @@
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+    width: 80px;
+}

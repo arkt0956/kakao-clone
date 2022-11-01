@@ -1,5 +1,6 @@
 .user-component {
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .user-component,
@@ -10,6 +11,9 @@
 
 .user-component__column:last-child {
     color: #A9A9A9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .user-component__title {
@@ -46,7 +50,7 @@
     font-weight: 400;
 }
 
-.user-component__notification {
+/* .user-component__notification {
     background-color: #FA622A;
     width: 20px;
     height: 20px;
@@ -61,8 +65,13 @@
     font-weight: 600;
     margin-left: 10px;
     margin-top: 10px;
-}
-/Users/seungho/git/kakao-clone/screenshots/04.png
+} */
+
 .user-component__receive-time {
     font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.user-component__column-square-comment {
+    color: black;
 }
